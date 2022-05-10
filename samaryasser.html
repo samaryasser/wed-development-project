@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="headcontainer">
+      <div class="header">
+        <h2 class="logo">Doorhub</h2>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Blog</li>
+            <li>Privacy</li>
+          </ul>
+        </nav>
+        <button id="contactBtn" class="btn">Contact me</button>
+      </div> 
+      </div>
+      <div class="container">
+        <div class="content">
+          <h1>We provide delivery within 30 Min</h1>
+          <p>
+            Our advanced technology makes it possible to offer cost-effective
+            and fast delivery. Throughout new thinking of last mile
+            transportation, we create the preconditions to bring e-commerce in
+            front of a highly competitive market. We combine deliveries and
+            route optimize so you can offer your customers the fastest delivery
+            in the market. Doorhubs solution fits any size of business.
+          </p>
+          <p id="moreInfo"> 
+
+          </p>
+          <button id="button" class="btn">Know more...</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <p>
+      <br>
+      <br>
+    <img src="delivery.png" alt="oops!" width="260" height="300">
+    <img src="delivery1.png" alt="oops!" width="260" height="300">
+    <img src="delivery2.jpg" alt="oops!" width="260" height="300">
+     <img src="delivery6.jpg" alt="oops!" width="260" height="300">
+    <img src="delivery4.jpg" alt="oops!" width="260" height="300">
+    <img src="delivery5.jpg" alt="oops!" width="260" height="300">
+       
+    <div class="samar">
+      <h1 style="font-size: 45px; margin: 2em  0 1rem 2em;">Track orders to your door</h1>
+    
+      <br>
+      <p style="font-size: 20px; width: 50%; padding-left: 5em; padding-bottom: 5em;">Get your favourite food delivered in a flash.
+         You’ll see when your rider’s picked up your order,
+          and be able to follow them along the way.
+         You’ll get a notification when they’re nearby, too.</p>
+         
+    </div>
+
+    <script>
+      var knowmorebutton = document.getElementById("button"),
+      moreInfo = document.getElementById("moreInfo");
+      knowmorebutton.onclick=function() {
+       moreInfo.innerHTML = "Read more about how Doorhub started , and what our mission is , and how we want to create changes";
+      }
+
+  var contactbutton = document.getElementById("contactBtn"),
+      contactInfo = document.getElementById("contactInfo");
+      contactBtn.onclick=function() {
+       alert("Contact us via facebook or WhatsApp");
+      }
+    </script>
+  </body>
+</html>
